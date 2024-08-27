@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hubs:
+    image: mozilla/hubs
+    ports:
+      - "3000:3000"
+    volumes:
+      - hubs_data:/data
+volumes:
+  hubs_data:
