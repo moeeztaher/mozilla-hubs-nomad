@@ -1,0 +1,8 @@
+sync:
+  defaults:
+    mode: two-way-resolved
+  sessions:
+    - alpha: "./local-directory"
+      beta: "user@remote-vm:/remote-directory"
+      configurationBeta:
+        ignoreVCS: true
